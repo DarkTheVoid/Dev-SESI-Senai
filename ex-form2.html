@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {background-color: rgb(128, 210, 210);;}
+        textarea  {width: 100%;}
+        th {background-color: rgb(23, 23, 61);color: white;}
+        legend {color: #000000;}
+        fieldset {text-align: center;}
+        td {text-align: left;}
+    </style>
+    
+</head>
+<body>
+    <h1 style="color: rgb(0, 0, 0); text-align: center;">
+    Ficha de Cadastro</h1>
+    <form>
+   
+ <fieldset>      
+    <table>
+         <legend>Dados Pessoais</legend>
+       <tr>
+            <td>
+                <label>Nome Aluno</label>
+            </td>
+            <td>
+                <input type="text" placeholder="Digite aqui seu Nome">
+            </td>
+            </tr>
+
+            </tr>
+            <tr>
+                <td>
+                    <label>Nascimento</label>
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </th>
+            <tr>
+                <td>
+                    <label>Idade</label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            <tr>
+                <td>
+                    <label>Nome do Responsável</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Digite o nome do responsável">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Telefone</label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="Digite aqui seu E-mail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Senha</label>
+                </td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Foto</label>
+                </td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+       
+      </table>
+</fieldset>  
+
+<fieldset>
+     <table> 
+     <legend style="text-align: center;">Informações de Matrícula</legend>
+      <tr>
+        <th>
+            Série
+        </th>
+        <th>
+            Turma
+        </th>
+        <th>
+            Atividade Extracurrículares:
+        </th>
+      </tr>
+      <tr>
+        <td>
+            <select name="escolaridade">
+                <option value="">Selecione a escolaridade</option>
+                <option value="">Ensino Fundamental</option>
+                <option value="">Ensino Médio</option>
+                <option value="">Ensino Superior</option>
+            </select>
+        </td>
+        <td>
+            <input type="radio" name="nome" value="1">
+            <label>Manhã</label>
+            <br>
+            <input type="radio" name="nome" value="2">
+            <label>Tarde</label>
+        </td>
+        <td>
+            <input type="checkbox">Informática<br>
+            <input type="checkbox">Música<br>
+            <input type="checkbox">Pintura<br>
+            <input type="checkbox">Judô<br>
+            <input type="checkbox">Futebol<br>
+        </td>
+      </tr>
+        </table>
+</fieldset>
+     <fieldset >
+       
+            <legend>Observação</legend>
+            <label for="story"></label>
+            <textarea id="story";name="story" rows="3" cows="30">
+            </textarea>
+       
+     </fieldset>
+    <form>
+        <input type="reset" value="limpar">
+        <input type="submit" value="Enviar">
+    
+     </form>   
+
+</body>
+</html>
