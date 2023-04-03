@@ -1,0 +1,182 @@
+body {
+   background-color:rgb(211, 223, 244)  /*Alterando cor de fundo do body*/
+}
+h1 
+{ 
+    text-align: center; /*código para centralizar o texto*/
+}
+p{
+    color: blue; /*para alterar a cor do texto*/
+}
+img{ width: 200px; 
+     height: 100px; /*alterar o tamanho da imagem, TÀ MUITO ESTICADO*/
+    
+    }
+    
+
+h2{
+    font-size: 20px;
+    background-color: rgb(114, 114, 212); /*feito para alterar a letra e font-size*/
+}
+
+
+h3{
+    font-size: 18px;
+    text-align: right;
+    color: white;
+    background-color: rgb(8, 8, 38);
+}
+
+.p1-vermelho{color: #ff0000;}
+.p1-vermelho:hover{ 
+    color: #ffffff;
+    background-color: black;
+}
+.p2-amarelo{color: yellow;}
+.p3-verde{color: green;}
+.sombreado{
+    text-shadow: 1px 1px 2px rgb(255, 0, 0);
+}
+
+
+.fonte{
+    font-family: Arial;
+}
+
+.opacidade{
+    background-color: green;
+    opacity: 0.3;  /* Nível de opacidade de todos os elementos de dentro da DIV*/ 
+}
+
+.opacidade-rgba{
+    background-color: darkgreen; /*opacidade de fundo*/
+}
+
+.fundo-imagem{
+    height: 400px;
+    background-image: url(../img/genshin\ banner.jfif);
+    background-size: cover;
+    /*estica a imagem para todo o espaço*/
+}
+
+.fundo-tela-dinamica{
+    height: 1000px;
+    background: url(https://unsplash.com/pt-br/1920x2400?hdr,ocean);
+}
+
+.borda{
+    /*Aplicando uma largura tipo borda e cor*/
+    border: 2px solid red;
+    /*aplicando um arredondamento no elemento*/
+    border-radius: 10px 20px; 
+}
+
+.p1{
+    border: 1px solid black;
+}
+
+.p2{
+    border-bottom: 4px solid red;
+}
+
+.p3{
+    border: 2px solid green;
+    border-radius: 2px;
+}
+
+.p4{
+    background-color: lightcyan;
+    border-left: 10px solid blue;
+}
+
+.p5{
+    border-top: 5px dotted blue;
+}
+
+.p6{border-top: 6px solid yellow ;
+     border-right: 6px dotted blue ;
+     border-bottom: 6px dashed red ;
+     border-left: 6px double green ;
+}
+
+.imagem{
+    border-radius: 20px;
+    background-image: url(../img/kitten.jpeg);
+    height: 200px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.imagem2{
+    border-radius: 100%;
+    height: 200px ;
+    width: 200px;
+}
+
+.imagem3{
+    height: 200px;
+    width: 250px;
+    border-radius: 100%;
+    border: 10px solid transparent;
+    background:linear-gradient(-45deg, #00f, #ff0000) border-box;
+}
+/*height e widht feitos para definir o tamanho da imagem ou da borda sozinha, border radius 
+feito para definir o arredondamento dos lados, % para maximizar. para definir a cor da borda, 
+pode se utilizar border-color ( mas é impossível de fazer gradientes), se utiliza background, 
+podendo colocar gradientes e qualquer cor*/
+
+.div1{
+    border: 1px solid black;
+    background-color: lightcyan;
+}
+
+.div2{
+    border: 1px solid black;
+    background-color: lightcoral;
+    text-align: right;
+}
+
+.div-margem{
+    /*top right bottom left*/
+    margin: 0px  20px  20px  15px;
+    background-color: lightblue;
+}
+
+.div-centralizada{
+    background-color: lightseagreen;
+    width: 150px;
+    margin: 0px auto;  /*centralizando um elemento DIV*/ 
+}
+
+.div-padding{
+    background-color: lemonchiffon;
+    padding: 20px;
+}
+
+.div-completa{
+    background-color: limegreen;
+    border: 3px dotted red;
+    margin: 40px;
+    padding: 20px
+}
+
+.botao{
+    background-color: plum;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    border: 2px #ff0000;
+}
+
+.botao:hover{
+    
+    background-color: rgb(164, 60, 164);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}

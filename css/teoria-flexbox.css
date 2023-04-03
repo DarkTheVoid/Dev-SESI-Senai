@@ -1,0 +1,78 @@
+/**Flex-1 - ROW EM LINHA**/
+.flex-1{
+    background-color: lightgray;
+    display: flex;
+    /**Alterando o display da div para o tipo flex para ficar 
+mais fácil estilizar as posições dos elementos filhos
+- por padrão o alinhamento é em linha ROW**/
+
+}
+/** Flex COLUMN EM COLUNA**/
+.flex-coluna{
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /** O Flex Direction altera a disposição dos elementos
+    para o tipo coluna colocando um embaixodo outro**/
+
+}
+.wrap{
+    background-color: lightcyan;
+    padding: 20px;
+    margin-top: 20px; 
+    flex-wrap: wrap;   
+}
+
+/** O Flex wrap "quebra" os elemnetos em uma nova
+linha quando não cabem**/
+img{
+    width: 180px;
+    height: 300px;
+    margin: 10px;
+}
+
+.centralizar-x{
+    background-color: lightcyan;
+    padding: 20px;
+    margin-top: 20px; 
+    display: flex;
+    /**Centralizar ao horizonte**/
+    justify-content: center; 
+}
+
+.space-around{
+    background-color: lightcyan;
+    padding: 20px;
+    margin-top: 20px; 
+    display: flex;
+    /**Centralizar ao horizonte**/
+    justify-content: space-around; 
+}
+
+.space-between{
+    background-color: lightcyan;
+    margin-top: 20px; 
+    display: flex;
+    /**Centralizar ao horizonte**/
+    justify-content: space-between; 
+}
+
+.flex-end{
+    background-color: lightcyan;
+    margin-top: 20px; 
+    display: flex;
+    /**Centralizar ao horizonte**/
+    justify-content: flex-end;
+}
+.centralizar-y{
+    background-color: lightcyan;
+    margin-top: 20px; 
+    display: flex;
+    /**Centralizar ao horizonte**/
+    justify-content: flex-end;
+}
+
+/**justify> verticalmente
+   items-align> horizontalmente**/

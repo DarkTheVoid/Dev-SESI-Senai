@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+ 
+    <h1>Teoria CSS</h1>  
+
+    <p>Eu sou um parágrafo</p>
+    <img src="img/genshin banner.jfif">
+    <h2>Eu sou um h2 com tamanho 20px e cor de fundo</h2>
+    <h3> Eu sou um h3 alinhado a direita, tamanho 18px, 
+        com cor de fonte e cor de fundo
+    </h3>
+    <P class="p1-vermelho">Parágrafo na cor vermelha</P>
+    <P class="p2-amarelo">2 Parágrafo na cor amarela </P>
+    <P class="p3-verde">3 Parágrafo na cor verde</P>
+    <p class="p1-vermelho">Outreo parágrafo vermelho</p>
+
+    <h4 class="sombreado">Teste de sombreamento</h3>
+    <h4 class="fonte">Teste de fonte</h4>
+
+    <p class="p1">Podemos configurar fontes padrão do sistema</p>
+    <p>Ou então usar uma fonte do Google Fonts</p>
+    <p class="p3">Ou ainda usar um arquivo local de fontes</p>
+    <!-- ok, muita coisa. Class senod usada como uma forma de hierarquia entre os comandos para ficar mais fácil
+    de serem modificadas na pasta separada CSS.
+    Podemos mudar a fonte da letra utilizando de fontes baixadas da internet utilizando @font-faze, e comandos como font-family
+@font-face{fonte escolhida}
+.class-->
+<!-- baixar fonte primeiro! coloque ela na pasta /img do html do curso dev, adicione um @font-face e '(nome escolhido)' para criar
+uma linkagem com a fonte, e então font-family: '(nome escolhido)' para adicionar a fonte a letra -->
+
+<div class="opacidade">
+    <p>Elemento com texto com opacidade 30%</p>
+</div>
+<div class="opacidade-rgba">
+    <p>Elemento com texto com opacidade em 30%</p>
+</div>
+<div class="fundo-imagem">
+</div>
+
+<h1 class="borda">Teste borda</h1>
+
+<p class="p1">Com borda 1px em todos os lados preto</p>
+    <p class="p2">Com borda 2px inferior vermelha</p>
+    <p class="p3">Com borda 1px arredondada cor verde</p>
+    <p class="p4">Com borda 4px esquerda</p>
+    <p class="p5">Com borda 1 px pontilhado em cima</p>
+    <p class="p6">Bordas misturadas com 4px e tipos diferentes</p>
+    
+    <div>
+        <img class="imagem" src="img/kitten.jpeg" alt="fds">
+        <img class="imagem2" src="img/kitten.jpeg" alt="fds">
+        <img class="imagem3" src="img/kitten.jpeg" alt="fds">
+    </div><!--é mais fácil colocar a imagem aqui e alterar com a classe, background image apenas para enfeite-->
+<!-- sempre utilize classes para facilitar o serviço -->
+
+    <div class="div1">
+        <h4>Conteúdo no div</h4>
+        <p>Teste de conteúdo</p>
+    </div>
+    <div class="div2">
+        <h4>Conteúdo no div</h4>
+        <p>Teste de conteúdo</p>
+    </div>
+    <!-- <margin> espaçamento externo // <padding> espaçamento interno // <> -->
+        <div class="div-margem">Nova div</div>
+
+        <div class="div-centralizada">Div centralizada</div>
+
+        <div class="div-padding">Div com espaçamento interno</div>
+
+        <div class="div-completa">Esta div tem margin border e padding</div>
+
+        <a href="#" class="botao">Botão 1</a>
+</body>
+</html>

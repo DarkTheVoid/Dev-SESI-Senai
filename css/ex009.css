@@ -1,0 +1,71 @@
+body{
+    background-color: lightpink;}
+
+
+.div-principal{
+    width: 600px;
+    background-color: white;
+    margin:auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px;
+    padding: 3px 3px;}
+
+
+h1{
+    color: lightsalmon;
+    text-shadow: 0px 0px 3px red, 2px 2px 3px black;}
+
+
+
+.tit1{
+    text-align: left;}
+
+
+.tit2{
+    text-align:center justify;}
+
+.tit3{
+    text-align:right;}  
+    
+h2{
+    border-left: 3px solid black ;
+    border-bottom: 3px solid black;
+    border-radius: 12px;
+}
+  
+
+.img1{
+    width: 150px;
+    height: 50px;
+    float:left;}
+
+
+.img2{
+    width: 150px;
+    height: 50px;
+    float:none;}
+
+
+.img3{
+    width: 150px;
+    height: 50px;
+    float:right;}
+
+
+.divs{
+    margin: 7px;
+}
+
+.par1{
+    text-align: left;}
+
+
+.par2{
+    text-align: center justify;}
+
+
+
+.par3{
+    text-align: right;}
+

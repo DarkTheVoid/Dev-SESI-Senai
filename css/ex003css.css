@@ -1,0 +1,71 @@
+
+
+body{
+    text-align: center;
+    background-color: rgb(181, 215, 203);
+}
+
+h1{
+    color: #018215;
+}
+
+hr{
+    size: 5; border-color: rgb(0, 85, 0);
+}
+
+table{margin: auto;}
+td{
+        width: 100px; height: 100px;
+    }
+
+.azul {
+    background-color: rgb(38, 0, 143);
+}
+
+.verde {
+    background-color: green;
+}
+
+.amarela {
+    background-color: rgb(226, 185, 4);
+}
+
+.vermelho {
+    background-color: rgb(146, 0, 0);
+}
+
+.rosa {
+    background-color: rgb(199, 33, 135);
+}
+
+#preto{
+    background-color: black;
+}
+
+
+
+.class{
+ background-color: blueviolet;
+    transition: 500ms;
+}
+.class:hover{
+    background-color: rgb(120, 159, 255);
+   transition: 500ms;
+   }
+
+
+   .purple{background-color: purple;
+
+   }
+   .blue{background-color: blue;
+
+   }
+   .pink{background-color: pink;
+
+   }
+   .yellow{background-color: yellow;
+
+   }
+   .green{background-color: rgb(0, 255, 0);
+
+   }

@@ -1,0 +1,24 @@
+h1{
+    background-color: rgb(161, 222, 201);
+}
+.imagem-fundo{
+    height: 200;
+    background-image: url(../img/matriz-musicdot-antiga.jpg);
+    background-size: contain;
+    background-position:left ;
+}
+
+
+.imagem-de-fundo{
+    height: 400px;
+    background-image: url(../img/familia-tupfeln.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    background-position: right;
+    
+}
+
+.esquerda{
+    float: left;
+}

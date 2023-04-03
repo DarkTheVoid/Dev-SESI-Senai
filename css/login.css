@@ -1,0 +1,87 @@
+body{
+     background-image: url(../img/sky.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 5px white;
+}
+
+.bloco-geral{
+    width: 400px;
+    height: 400px;
+    margin:auto;
+    border: 1px solid rgb(53, 0, 105);
+    border-radius: 20px;
+    background-color: rgba(213, 213, 213, 0.3);
+
+    
+}
+
+input{
+    border: 1px solid white ;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: transparent;
+    width: 360px;
+    height: 30px;
+    background-color: rgba(213, 213, 213, 0.3);
+    padding-left: 5px ;
+}
+
+.botao{
+    border: 1px solid white ;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: transparent;
+    width: 360px;
+    height: 30px;
+}
+
+p{
+    margin-bottom: 3px;
+    color: white;
+}    
+
+button{   
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: rgb(209, 228, 255);
+    transition: 150ms;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgb(77, 0, 128);
+    padding-left: 150px ;
+    padding-right: 150px ;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    
+}
+
+button:hover{   
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: rgb(144, 183, 239);
+    transition: 150ms;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgb(77, 0, 128);
+    padding-left: 150px ;
+    padding-right: 150px ;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.area-1{
+    margin-bottom: 50px;
+    margin-left: 10px
+}
+
+.area-2{
+    margin-bottom: 50px;
+    margin-left: 10px
+}
